@@ -6,3 +6,15 @@ Allow: /
  
 User-agent: AhrefsBot
 Allow: /
+
+# Allow OpenAI Search (used for citations and browsing)
+User-agent: OAI-SearchBot
+Allow: /
+
+# Allow general OpenAI crawling (used for tool usage and general discovery)
+User-agent: GPTBot
+Allow: /
+
+# Allow ChatGPT browsing and user-initiated link reading
+User-agent: ChatGPT-User
+Allow: /
